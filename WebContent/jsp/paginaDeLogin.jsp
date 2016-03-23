@@ -26,6 +26,6 @@
     		Senha: <input type='password' name='senha' value=""/><br/>
     		<input type='submit' value="Enviar" /><br/>
     	</form>
-    	<a href='<c:url value="/index.jsp"/>'>Vitrine</a><br/>
+    	<a href='<c:url value="/index.html"/>'>Vitrine</a><br/>
    </body>
 </html>

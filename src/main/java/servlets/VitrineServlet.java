@@ -27,7 +27,7 @@ public class VitrineServlet extends HttpServlet{
 		 */
 		
 		for(int i = 0; i < 100; i++){
-			estoque.adicionar("prod " + i, 10, Integer.toString(i));
+			estoque.adicionar("prod" + i, 10, Integer.toString(i));
 		}
 	}
 

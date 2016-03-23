@@ -7,9 +7,10 @@ paginaDeLogin.jsp
 VitrineServlet.java
 vitrine.jsp
 carrinho.jsp
+AutenticaLoginServlet.java
 
 Arquivos precisando de ajuste:
 
 Servlets:
-AutenticaLoginServlet.java
+
 CarrinhoServlet.java

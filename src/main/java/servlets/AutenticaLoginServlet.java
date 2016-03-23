@@ -22,13 +22,10 @@ public class AutenticaLoginServlet extends HttpServlet {
 		String senha = req.getParameter("senha");
 	
 		if ("conta".equals(conta) && "senha".equals(senha))	{
-			/*
-			 * TODO: Verificar Relação entre esse cookie e o carrinho em si
-			 */
-			String carrinho = "";
+			/*String carrinho = "";
 			Cookie umCookie = new Cookie("carrinho", URLEncoder.encode(carrinho, "UTF-8"));
 			umCookie.setMaxAge(7*24*60*60);
-			res.addCookie(umCookie);
+			res.addCookie(umCookie);*/
 			
 			HttpSession sessao = req.getSession();
 			Usuario usuario = new Usuario();
