@@ -1,0 +1,5 @@
+-- Implementação simplística de Carrinhos e Controle de Login --
+
+-- Para executar este servlet, digite:
+
+http://localhost:8080/TrabalhoFinal

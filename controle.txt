@@ -1,0 +1,15 @@
+Arquivos prontos para Entrega:
+
+index.html
+pom.xml
+Filtro.java
+paginaDeLogin.jsp
+VitrineServlet.java
+vitrine.jsp
+carrinho.jsp
+
+Arquivos precisando de ajuste:
+
+Servlets:
+AutenticaLoginServlet.java
+CarrinhoServlet.java
