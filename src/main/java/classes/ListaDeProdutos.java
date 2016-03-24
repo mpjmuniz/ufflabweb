@@ -22,7 +22,8 @@ public class ListaDeProdutos extends ArrayList {
 	
 	public void remover(String nome){
 		Produto removido = obter(nome);
-		
+		if(removido == null)
+			return;
 		if(removido.qtd == 1){
 			int prod = procurarIndice(nome);
 		 	if(prod != -1){
